@@ -1,4 +1,4 @@
-#ifndef MINTERFACEMAG_H
+﻿#ifndef MINTERFACEMAG_H
 #define MINTERFACEMAG_H
 
 #include <QObject>

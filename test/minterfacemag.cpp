@@ -1,4 +1,4 @@
-#include "minterfacemag.h"
+﻿#include "minterfacemag.h"
 
 MInterfaceMag::MInterfaceMag(QObject *parent) : QObject(parent)
 {
@@ -7,5 +7,5 @@ MInterfaceMag::MInterfaceMag(QObject *parent) : QObject(parent)
 
 void MInterfaceMag::test()
 {
-    m_core->Test();
+    m_core->sortTest();
 }

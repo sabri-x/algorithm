@@ -1,11 +1,25 @@
-#include "core.h"
+﻿#include "core.h"
+#include "mboyermoore.h"
+#include "msort.h"
 #include <QDebug>
 
 Core::Core()
 {
+    
 }
 
 void Core::Test()
 {
-     qDebug()<<__FILE__<<__FUNCTION__<<"------Test-------";
+}
+
+void Core::BoyerMoreTest()
+{
+    MBoyerMoore bm;
+    bm.startForText_c();
+}
+
+void Core::sortTest()
+{
+    MSort sort;
+    sort.test();;
 }

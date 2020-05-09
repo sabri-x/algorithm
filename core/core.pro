@@ -16,11 +16,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-    core.cpp
+    core.cpp \
+    mboyermoore.cpp \
+    mboyermoore_c.c \
+    msort.cpp
 
 HEADERS += \
     core_global.h \
-    core.h
+    core.h \
+    mboyermoore.h \
+    mboyermoore_c.h \
+    msort.h
 
 # Default rules for deployment.
 unix {
